@@ -75,12 +75,11 @@ ruby_version='2.1.5'
 gemrc=$HOME/.gemrc
 
 # JPEG2000 codec: OpenJPEG
-# http://openjpeg.googlecode.com/files/openjpeg-1.5.0.tar.gz (SHA1 dce705ae45f137e4698a8cf39d1fbf22bc434fa8)
-# http://openjpeg.googlecode.com/files/openjpeg-2.0.0.tar.gz (SHA1 0af78ab2283b43421458f80373422d8029a9f7a7)
-opj_googlecode='openjpeg.googlecode.com'
+# https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/openjpeg/openjpeg-1.5.0.tar.gz
+opj_googlecode='storage.googleapis.com'
 openjpeg_version='1.5.0'
 openjpeg_tarball="openjpeg-$openjpeg_version.tar.gz"
-openjpeg_tarball_url="http://$opj_googlecode/files/$openjpeg_tarball"
+openjpeg_tarball_url="http://$opj_googlecode/google-code-archive-downloads/v2/code.google.com/openjpeg/$openjpeg_tarball"
 openjpeg_dir=$libdir/openjpeg
 openjpeg_build_dir="$openjpeg_dir/openjpeg-$openjpeg_version"
 openjpeg_install_dir=$bindir/openjpeg
